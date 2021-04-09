@@ -1,0 +1,11 @@
+.card-container {
+    @apply bg-gray-50 text-black rounded-2xl border-black border-t-8 shadow-lg;
+}
+
+.experience-card {
+    @apply lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:h-80 xl:h-66 2xl:h-66 mx-10 my-6 p-8;
+}
+
+.project-card {
+    @apply lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:h-80 xl:h-72 2xl:h-64 mx-10 my-6 p-8;
+}
