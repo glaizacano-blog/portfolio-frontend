@@ -1,11 +1,11 @@
 .card-container {
-    @apply bg-gray-50 text-black rounded-2xl border-black border-t-8 shadow-lg;
+    @apply bg-gray-50 text-black rounded-2xl border-black border-t-8 shadow-lg m-6 p-8 transition duration-700 ease-in-out transform hover:translate-y-1 hover:scale-105 ;
 }
 
 .experience-card {
-    @apply lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:h-80 xl:h-66 2xl:h-66 mx-10 my-6 p-8;
+    @apply lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:h-96 xl:h-66 2xl:h-66;
 }
 
 .project-card {
-    @apply lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:h-80 xl:h-72 2xl:h-64 mx-10 my-6 p-8;
+    @apply lg:w-2/5 xl:w-2/5 2xl:w-2/5 lg:h-80 xl:h-72 2xl:h-64;
 }
