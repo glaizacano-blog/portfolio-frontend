@@ -1,0 +1,67 @@
+.btn-cyan-500 {
+  @apply font-medium text-white bg-cyan-500 rounded-full;
+  padding-top: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-bottom: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-right: calc(theme('padding.4') - theme('borderWidth.2'));
+  padding-left: calc(theme('padding.4') - theme('borderWidth.2'));
+}
+
+.btn-cyan-600 {
+  @apply font-medium text-white bg-cyan-600 rounded-full;
+  padding-top: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-bottom: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-right: calc(theme('padding.4') - theme('borderWidth.2'));
+  padding-left: calc(theme('padding.4') - theme('borderWidth.2'));
+}
+
+.btn-hover {
+  @apply transition duration-700 ease-in-out transform hover:-translate-y-1;
+}
+
+.btn-gradient {
+  @apply font-medium text-white bg-gradient-to-r from-cyan-400 to-lightblue-600 rounded-full;
+}
+
+.btn-gradient-hover {
+  @apply btn-hover hover:text-cyan-600 hover:border-2 hover:border-cyan-600 hover:from-transparent hover:to-transparent hover:bg-white;
+}
+
+.btn-view-projects {
+  @apply btn-gradient;
+  padding-top: calc(theme('padding.4') - theme('borderWidth.2'));
+  padding-bottom: calc(theme('padding.4') - theme('borderWidth.2'));
+  padding-right: calc(theme('padding.8') - theme('borderWidth.2'));
+  padding-left: calc(theme('padding.8') - theme('borderWidth.2'));
+}
+
+.btn-view-projects-hover {
+  @apply btn-gradient-hover hover:px-7 hover:py-3;
+}
+
+.btn-cta {
+  @apply btn-gradient;
+  padding-top: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-bottom: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-right: calc(theme('padding.4') - theme('borderWidth.2'));
+  padding-left: calc(theme('padding.4') - theme('borderWidth.2'));
+}
+
+.btn-cta-hover {
+  @apply hover:px-3 hover:py-2;
+}
+
+.btn-github {
+  @apply font-medium text-white bg-github rounded-full;
+  padding-top: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-bottom: calc(theme('padding.3') - theme('borderWidth.2'));
+  padding-right: calc(theme('padding.4') - theme('borderWidth.2'));
+  padding-left: calc(theme('padding.4') - theme('borderWidth.2'));
+}
+
+.btn-github-hover {
+  @apply btn-hover btn-cta-hover hover:text-github hover:border-2 hover:border-github hover:from-transparent hover:to-transparent hover:bg-white;
+}
+
+.btn-project-hover {
+  @apply btn-gradient-hover btn-cta-hover;
+}
