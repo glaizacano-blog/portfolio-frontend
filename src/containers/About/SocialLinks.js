@@ -4,9 +4,9 @@ import {
   faDev,
   faGithub,
   faGitlab,
-  faInstagram,
+  // faInstagram,
   faLinkedin,
-  faTwitter,
+  // faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 
 const items = [
