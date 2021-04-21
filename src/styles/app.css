@@ -1,5 +1,11 @@
 @import './components/index';
+@import './utils/index';
 
 .app {
-    @apply box-border;
+    @apply box-border bg-white;
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', 'sans-serif';
+}
+
+.h-content-container {
+    height: calc(100vh - theme('height.nav'));
 }
