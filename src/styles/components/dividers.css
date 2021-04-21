@@ -1,0 +1,28 @@
+.divider {
+  height: 7px;
+  border-radius: 0 100px 0 100px;
+}
+
+.divider-gradient {
+  @apply divider bg-gradient-to-r from-cyan-400 to-lightblue-600;
+}
+
+.divider-gradient-sm {
+  @apply divider-gradient;
+  width: 100px;
+}
+
+.divider-gradient-md {
+  @apply divider-gradient;
+  width: 125px;
+}
+
+.divider-gradient-lg {
+  @apply divider-gradient;
+  width: 200px;
+}
+
+.divider-gradient-xl {
+  @apply divider-gradient;
+  width: 225px;
+}
