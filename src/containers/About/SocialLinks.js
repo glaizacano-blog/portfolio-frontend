@@ -65,7 +65,7 @@ const SocialLinks = () => {
     });
 
   return (
-    <div className="flex flex-row text-3xl my-4">
+    <div className="flex flex-row text-3xl xxs:my-3 xs:my-3 sm:my-3 md:my-3 lg:my-4 xl:my-4 2xl:my-4">
       <SocialMediaList />
     </div>
   );

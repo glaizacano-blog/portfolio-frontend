@@ -5,7 +5,7 @@ import ProjectSummary from '../Projects/ProjectSummary';
 
 const Home = () => {
   return (
-    <section className="mt-20 pt-20 md:mx-8 lg:mx-12 xl:mx-12 2xl:mx-12 md:px-8 lg:px-12 xl:px-12 2xl:px-12 h-full">
+    <section className="h-full xxs:mx-8 xs:mx-8 sm:mx-12 md:mx-12 lg:mx-16 xl:mx-24 2xl:mx-24">
       <Header />
       <AboutSummary />
       <ProjectSummary />
