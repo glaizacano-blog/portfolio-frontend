@@ -7,6 +7,16 @@
   @apply divider bg-gradient-to-r from-cyan-400 to-lightblue-600;
 }
 
+.divider-gradient-xxs {
+  @apply divider-gradient;
+  width: 50px;
+}
+
+.divider-gradient-xs {
+  @apply divider-gradient;
+  width: 75px;
+}
+
 .divider-gradient-sm {
   @apply divider-gradient;
   width: 100px;
@@ -19,10 +29,15 @@
 
 .divider-gradient-lg {
   @apply divider-gradient;
-  width: 200px;
+  width: 150px;
 }
 
 .divider-gradient-xl {
   @apply divider-gradient;
-  width: 225px;
+  width: 175px;
+}
+
+.divider-gradient-xxl {
+  @apply divider-gradient;
+  width: 200px;
 }

@@ -16,7 +16,7 @@ const CardContainer = ({
       <CallToAction
         iconName={faGithub}
         iconSize="lg"
-        linkClassName="flex justify-center items-center btn-github btn-github-hover xs:w-full"
+        linkClassName="flex justify-center items-center btn-github btn-github-hover xxs:w-full xs:w-full"
         link={githubLink}
         text="View Source Code"
         textClassName="ml-2"
@@ -29,7 +29,7 @@ const CardContainer = ({
       <CallToAction
         iconName={faLink}
         iconSize="lg"
-        linkClassName="flex justify-center items-center btn-cyan-600 btn-project-hover xs:mt-2 sm:ml-2 md:ml-2 lg:ml-2 xl:ml-2 2xl:ml-2 xs:w-full"
+        linkClassName="flex justify-center items-center btn-cyan-600 btn-project-hover xxs:mt-2 xs:mt-2 sm:ml-2 md:ml-2 lg:ml-2 xl:ml-2 2xl:ml-2 xxs:w-full xs:w-full"
         link={projectLink}
         text="View Project"
         textClassName="ml-2"
@@ -39,9 +39,9 @@ const CardContainer = ({
 
   return (
     <div className="project-card">
-      <h3 className="font-semibold text-xl">{title}</h3>
-      <p className="font-normal text-lg my-2">{description}</p>
-      <div className="flex flex-col justify-center items-start font-normal text-lg">
+      <h3 className="font-semibold xxs:text-lg xs:text-lg sm:text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">{title}</h3>
+      <p className="font-normal xxs:text-md xs:text-md sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-xl my-2">{description}</p>
+      <div className="flex flex-col justify-center items-start font-normal xxs:text-md xs:text-md sm:text-md md:text-md lg:text-lg xl:text-lg 2xl:text-lg">
         <p>
           <span className="font-medium">Status:</span> {status}
         </p>
@@ -49,7 +49,7 @@ const CardContainer = ({
           <span className="font-medium">Tech stack:</span> {technologyStack}
         </p>
       </div>
-      <div className="flex xs:flex-col sm:flex-row  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row mt-6">
+      <div className="flex xxs:flex-col xs:flex-col sm:flex-row  md:flex-row lg:flex-row xl:flex-row 2xl:flex-row mt-6">
         {githubLink ? renderGitHubButton(githubLink) : ''}
         {projectLink ? renderProjectButton(projectLink) : ''}
       </div>
