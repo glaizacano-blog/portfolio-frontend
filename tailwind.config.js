@@ -8,7 +8,6 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: colors.trueGray,
       red: colors.red,
       orange: colors.orange,
       amber: colors.amber,
