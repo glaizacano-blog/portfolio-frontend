@@ -5,7 +5,6 @@
   "author": "Glaiza Cano",
   "license": "ISC",
   "dependencies": {
-    "@craco/craco": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
@@ -26,14 +25,11 @@
     "typewriter-effect": "^2.17.0",
     "web-vitals": "^1.0.1"
   },
-  "overrides": {
-    "typescript": "^5.4.2"
-  },
   "scripts": {
-    "start": "npm run start",
-    "build": "npm run build",
-    "test": "npm test",
-    "eject": "npm eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -54,8 +50,10 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.1.0",
-    "autoprefixer": "^9.8.6",
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9.8.8",
     "css-loader": "^4.3.0",
     "dotenv": "^8.2.0",
     "eslint": "^7.24.0",
@@ -65,10 +63,10 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "file-loader": "^6.1.1",
     "mini-css-extract-plugin": "^0.11.3",
-    "postcss": "^7.0.35",
+    "postcss": "^7.0.39",
     "prettier": "^2.2.1",
     "style-loader": "^1.3.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "url-loader": "^4.1.1"
   }
 }
